@@ -1,0 +1,153 @@
+2017-06-21 15:03:54,528 INFO Test
+2017-06-21 15:03:54,529 INFO Test2
+2017-06-21 15:09:53,063 INFO Test
+2017-06-21 15:09:53,063,INFO,Test
+2017-06-21 15:09:53,064 INFO Test2
+2017-06-21 15:09:53,064,INFO,Test2
+2017-06-21 15:17:33,822,INFO,Test
+2017-06-21 15:17:33,822,INFO,Test2
+2017-06-21 15:18:02,545,INFO,Test
+2017-06-21 15:18:02,545,INFO,Test2
+2017-06-21 15:18:42,386,INFO,Test
+2017-06-21 15:18:42,387,INFO,Test2
+2017-06-21 15:20:12,539,WARNING,Update "None" caused error "Timed out"
+2017-06-21 15:20:42,665,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x000002777EAC73C8>, 'Connect timed out. (connect timeout=5.0)'))"
+2017-06-21 15:21:22,445,INFO,Test
+2017-06-21 15:21:22,446,INFO,Test2
+2017-06-21 15:22:50,893,INFO,Test
+2017-06-21 15:22:50,894,INFO,Test2
+2017-06-21 15:23:10,364,INFO,Test
+2017-06-21 15:23:10,365,INFO,Test2
+2017-06-21 15:24:02,825,INFO,Test
+2017-06-21 15:24:02,825,INFO,Test2
+2017-06-21 15:24:06,750,INFO,Test
+2017-06-21 15:24:06,751,INFO,Test2
+2017-06-21 15:24:51,992,INFO,User Sproink canceled the conversation.
+2017-06-21 15:27:43,427,INFO,Test
+2017-06-21 15:27:43,427,INFO,Test2
+2017-06-21 15:27:51,353,WARNING,Update "{'update_id': 140991677, 'message': {'message_id': 143, 'date': 1498030069, 'chat': {'id': 206270700, 'type': 'private', 'username': 'nwfxyz', 'first_name': 'Sproink'}, 'text': '/help', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 5}], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 206270700, 'first_name': 'Sproink', 'username': 'nwfxyz', 'language_code': 'en-US'}, 'new_chat_member': None}, '_effective_user': {'id': 206270700, 'first_name': 'Sproink', 'username': 'nwfxyz', 'language_code': 'en-US'}, '_effective_chat': {'id': 206270700, 'type': 'private', 'username': 'nwfxyz', 'first_name': 'Sproink'}, '_effective_message': {'message_id': 143, 'date': 1498030069, 'chat': {'id': 206270700, 'type': 'private', 'username': 'nwfxyz', 'first_name': 'Sproink'}, 'text': '/help', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 5}], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 206270700, 'first_name': 'Sproink', 'username': 'nwfxyz', 'language_code': 'en-US'}, 'new_chat_member': None}}" caused error "Can't parse entities in message text: expected end tag at byte offset 11"
+2017-06-21 15:28:22,509,INFO,Test
+2017-06-21 15:28:22,509,INFO,Test2
+2017-06-21 16:54:31,908,INFO,Test
+2017-06-21 16:54:31,910,INFO,Test2
+2017-06-21 16:55:13,619,INFO,Test
+2017-06-21 16:55:13,619,INFO,Test2
+2017-06-21 17:27:15,024,WARNING,Update "None" caused error "Timed out"
+2017-06-21 17:28:10,502,WARNING,Update "None" caused error "Timed out"
+2017-06-21 17:28:45,587,WARNING,Update "None" caused error "Timed out"
+2017-06-21 17:28:47,430,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459DEB8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 17:28:48,936,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45CF3C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 17:28:51,190,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45CF828>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 17:30:49,146,WARNING,Update "None" caused error "urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+2017-06-21 17:30:50,148,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459DA58>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 17:30:51,654,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459D8D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 17:30:53,908,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45CF7B8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:25:09,728,WARNING,Update "None" caused error "Timed out"
+2017-06-21 18:25:14,780,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45CF9E8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:25:22,527,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45E02E8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:25:33,922,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45CFC88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:25:51,011,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45776D8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:26:16,643,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459DA58>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:26:55,089,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459DB70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:27:25,092,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE458CF28>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:27:55,095,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45E07B8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:28:25,098,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45E0C18>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:28:55,102,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459DC88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:29:25,104,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459DE10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:29:55,107,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459D5F8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-21 18:30:25,126,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45CF898>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:03:19,348,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45E0EF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:03:49,355,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45F20B8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:04:19,358,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45F2518>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:04:49,363,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45E05F8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:05:19,365,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45CF128>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:05:49,368,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459DCF8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:06:19,371,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459D048>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:06:49,374,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459D080>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:07:19,377,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45F2860>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:07:49,403,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45F2CC0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:08:19,408,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459D5F8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:08:49,411,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE459D1D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:09:19,412,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE4577B38>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:09:49,415,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45CF240>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 12:10:19,418,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000023FE45E0278>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 13:56:09,999,INFO,Test
+2017-06-28 13:56:10,002,INFO,Test2
+2017-06-28 13:57:17,981,INFO,Test
+2017-06-28 13:57:17,981,INFO,Test2
+2017-06-28 13:59:38,637,INFO,Test
+2017-06-28 13:59:38,638,INFO,Test2
+2017-06-28 14:01:04,833,INFO,Test
+2017-06-28 14:01:04,833,INFO,Test2
+2017-06-28 14:02:12,976,INFO,Test
+2017-06-28 14:02:12,976,INFO,Test2
+2017-06-28 14:03:29,167,INFO,Test
+2017-06-28 14:03:29,167,INFO,Test2
+2017-06-28 14:04:37,539,WARNING,Update "None" caused error "Timed out"
+2017-06-28 14:06:45,365,INFO,Test
+2017-06-28 14:06:45,365,INFO,Test2
+2017-06-28 14:07:48,691,INFO,Test
+2017-06-28 14:07:48,691,INFO,Test2
+2017-06-28 14:14:08,041,INFO,Test
+2017-06-28 14:14:08,042,INFO,Test2
+2017-06-28 14:14:24,612,INFO,Test
+2017-06-28 14:14:24,613,INFO,Test2
+2017-06-28 14:14:34,529,INFO,Test
+2017-06-28 14:14:34,530,INFO,Test2
+2017-06-28 14:14:37,484,INFO,Test
+2017-06-28 14:14:37,485,INFO,Test2
+2017-06-28 14:14:49,066,INFO,Test
+2017-06-28 14:14:49,067,INFO,Test2
+2017-06-28 14:47:23,048,INFO,Test
+2017-06-28 14:47:23,049,INFO,Test2
+2017-06-28 14:47:36,072,INFO,Test
+2017-06-28 14:47:36,073,INFO,Test2
+2017-06-28 14:48:25,979,INFO,Test
+2017-06-28 14:48:25,979,INFO,Test2
+2017-06-28 14:49:01,895,INFO,Test
+2017-06-28 14:49:01,895,INFO,Test2
+2017-06-28 14:52:36,349,WARNING,Update "None" caused error "Timed out"
+2017-06-28 14:52:37,587,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000016F9FF35400>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 14:52:39,143,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000016F9FF6E128>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 14:52:41,404,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000016F9FF6E5C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 14:52:44,795,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000016F9FF6EA20>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 14:52:49,877,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000016F9FF6EE80>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-28 15:12:10,159,INFO,Test
+2017-06-28 15:12:10,160,INFO,Test2
+2017-06-28 15:13:31,068,WARNING,Update "None" caused error "Timed out"
+2017-06-28 15:13:53,261,WARNING,Update "None" caused error "Timed out"
+2017-06-28 15:14:32,630,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x0000022BEB416898>, 'Connect timed out. (connect timeout=5.0)'))"
+2017-06-28 15:15:33,443,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000022BEB46B828>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))"
+2017-06-28 15:21:25,252,WARNING,Update "None" caused error "Timed out"
+2017-06-28 15:24:03,307,WARNING,Update "None" caused error "Timed out"
+2017-06-28 15:25:24,141,WARNING,Update "None" caused error "Timed out"
+2017-06-28 15:41:28,284,INFO,Test
+2017-06-28 15:41:28,285,INFO,Test2
+2017-06-28 15:42:19,453,INFO,Test
+2017-06-28 15:42:19,455,INFO,Test2
+2017-06-28 15:53:57,642,INFO,Test
+2017-06-28 15:53:57,642,INFO,Test2
+2017-06-28 15:54:52,337,INFO,Test
+2017-06-28 15:54:52,338,INFO,Test2
+2017-06-28 16:00:44,711,INFO,Test
+2017-06-28 16:00:44,712,INFO,Test2
+2017-06-28 16:01:33,415,INFO,Test
+2017-06-28 16:01:33,415,INFO,Test2
+2017-06-28 16:02:16,543,INFO,Test
+2017-06-28 16:02:16,544,INFO,Test2
+2017-06-28 16:09:17,100,WARNING,Update "None" caused error "Timed out"
+2017-06-28 16:15:15,796,INFO,Test
+2017-06-28 16:15:15,796,INFO,Test2
+2017-06-28 16:16:32,552,INFO,Test
+2017-06-28 16:16:32,553,INFO,Test2
+2017-06-28 16:18:26,715,INFO,Test
+2017-06-28 16:18:26,715,INFO,Test2
+2017-06-28 16:32:06,710,INFO,Test
+2017-06-28 16:32:06,711,INFO,Test2
+2017-06-29 10:57:43,246,WARNING,Update "None" caused error "urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+2017-06-29 10:57:44,850,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000027A674D1470>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-29 10:57:46,514,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000027A674D1D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-29 10:57:48,856,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000027A674EB1D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-29 11:01:17,294,WARNING,Update "None" caused error "urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+2017-06-29 11:01:18,352,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000027A674EB1D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-29 11:01:19,860,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000027A674EB630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
