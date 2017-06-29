@@ -108,3 +108,13 @@
 2017-06-29 11:01:17,294,WARNING,Update "None" caused error "urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
 2017-06-29 11:01:18,352,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000027A674EB1D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
 2017-06-29 11:01:19,860,WARNING,Update "None" caused error "urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot355993039:AAFkJmcjKgQLWz3IWBGz1niXLFq8zq1vH6M/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000027A674EB630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))"
+2017-06-29 12:49:35,215,INFO,Test2
+2017-06-29 13:16:24,381,INFO,Test2
+2017-06-29 13:16:58,165,INFO,Test2
+2017-06-29 13:17:39,068,INFO,Test2
+2017-06-29 13:19:59,570,INFO,Test2
+2017-06-29 13:20:19,682,INFO,Test2
+2017-06-29 13:21:25,027,INFO,Test2
+2017-06-29 13:21:28,353,INFO,Test
+2017-06-29 13:21:28,356,INFO,Test2
+2017-06-29 13:21:28,356,INFO,Test2
