@@ -9,6 +9,10 @@ from telegram import (ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKeyboardBu
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters, RegexHandler,
                           ConversationHandler,CallbackQueryHandler)
 import pickle
+import pandas as pd
+import csv
+import time
+
 
 formatter = logging.Formatter('%(asctime)s,%(levelname)s,%(message)s')
 
@@ -16,7 +20,6 @@ formatter = logging.Formatter('%(asctime)s,%(levelname)s,%(message)s')
 
 CREATE2,CREATE3,CREATE4,CREATE5 = range(4)
 curList = {}
-
 
 
 def save_object(obj, filename):
@@ -51,11 +54,6 @@ def setup_logger(name, log_file, level=logging.INFO):
 
     return logger
 
-logger = setup_logger('main_logger', 'main_logfile.log')
-logger.info('Test')
-
-logger = setup_logger('main_logger', 'Info\main_logfile.log')
-logger.info('Test2')
 
 def start(bot,update):
     user = update.message.from_user
@@ -67,11 +65,25 @@ def start(bot,update):
            )
     return ConversationHandler.END
 
+
+def addlisting(ListID,Type,Title,Desc,userid):
+    df = pd.DataFrame(columns=['Type','userid','Title','Desc','Date','Time'])
+    df.loc[str(userid) + str(ListID)] =  pd.Series({'Type' : Type ,'userid' : userid, 'Title': Title , 'Desc': Desc, 'Date':time.strftime('%x') , 'Time':time.time() })
+    file_name = "Listings\\" + Type + "\\Listings.csv"
+    with open(file_name, 'a') as f:
+                 df.to_csv(f, header=False)
+
+
+
+
 def completelisting(userid,ListID):
     List_dir = "Processing\\user" + str(userid)
-    stging_list = load_object(List_dir + '\\' + ListId + '.pkl')
+    stging_list = load_object(List_dir + '\\' + ListID + '.pkl')
     Title = stging_list.Title
     Desc = stging_list.Desc
+    Type = stging_list.Type
+    addlisting(ListID,Type,Title,Desc,userid)
+    
     
     
     
@@ -145,8 +157,6 @@ def AddTitle(bot,update,user_data):
     user = update.message.from_user
     userid = user.id
     
-  
-    
     if len(str(update.message.text)) < 50 :
           List_dir = "Processing\\user" + str(userid)
           ListId = user_data['curr']
@@ -170,21 +180,27 @@ def AddDesc(bot,update,user_data):
     
     if len(str(update.message.text)) < 1500 :
           List_dir = "Processing\\user" + str(userid)
-          ListId = user_data['curr']
+          ListId = str(user_data['curr'])
+          print(ListId)
           stging_list = load_object(List_dir + '\\' + ListId + '.pkl')
           stging_list.Desc = update.message.text
-          update.message.reply_text('Done. Listing added',
-                                    reply_markup=ReplyKeyboardRemove())
           save_object(stging_list,List_dir + '\\' + ListId + '.pkl')
+          completelisting(userid,ListId)
+          update.message.reply_text('Listing' + ListId + ' saved:\n\n<b>'+ stging_list.Title + '</b>\n\n' + stging_list.Desc,parse_mode = 'HTML')
+          return ConversationHandler.END
           
-          return CREATE5
     else: 
-        update.message.reply_text('Desc too long, max 1500 char',
+        update.message.reply_text('Description too long, max 1500 char',
                                     reply_markup=ReplyKeyboardRemove())
         return CREATE4
     
-
-
+#
+#def ListingEnd(bot,update,user_data):
+#    
+#    user = update.message.from_user
+#    userid = user.id
+#    ListId = user_data['curr']
+#    
 
 def main():
     # Create the EventHandler and pass it your bot's token.
@@ -202,7 +218,8 @@ def main():
 
         states={
                 CREATE2: [CallbackQueryHandler(NewListing,pass_user_data = True)],
-                CREATE3: [MessageHandler(Filters.text,AddTitle,pass_user_data = True)]
+                CREATE3: [MessageHandler(Filters.text,AddTitle,pass_user_data = True)],
+                CREATE4: [MessageHandler(Filters.text,AddDesc,pass_user_data = True)]
                 
         },
 
